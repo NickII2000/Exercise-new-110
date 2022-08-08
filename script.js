@@ -50,14 +50,18 @@ function* count(n) {
     }
 }
 
-const counter = count(7);
+// const counter = count(7);
 
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
-console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+// console.log(counter.next().value);
+
+for (let k of count(7)) {
+    console.log(k);
+};
