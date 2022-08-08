@@ -35,7 +35,8 @@ function* generator() {
 const str = generator();
 
 // console.log(str());
-console.log(str.next());
+const obj = str.next();
+console.log(`${obj.value} - ${obj.done}`);
 console.log(str.next());
 console.log(str.next());
 console.log(str.next());
