@@ -5,6 +5,7 @@ import $ from 'jquery';
 
 $(document).ready(function () {
     $('.list-item:first').hover(function () {
+        // $('.list-item').hover(function () {
         $(this).toggleClass('active');
     });
 });
